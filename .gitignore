@@ -1,13 +1,28 @@
-# Some sensible files to ignore
-
-# Folder view configuration files
+# OS ignores
+## Folder view configuration files
 .DS_Store
 Desktop.ini
 
-# Thumbnail cache files
+## Thumbnail cache files
 ._*
 Thumbs.db
 
-# Files that might appear on external disks
+## Files that might appear on external disks
 .Spotlight-V100
 .Trashes
+
+# IDE Ignores
+## Eclipse
+.classpath
+.settings
+.project
+target
+
+## Idea
+.idea
+
+## Sublime
+*.sublime*
+
+## Node
+node_modules

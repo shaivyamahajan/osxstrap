@@ -1,3 +1,6 @@
+Mashup of bashstrap & dotfiles
+---------
+###
 Bashstrap is a quick way to spruce up OSX terminal. It cuts out the fluff, adds in timesaving features, and provides a solid foundation for customizing your terminal style.
 
 Based on Mathias Bynens epic dotfiles - https://github.com/mathiasbynens/dotfiles
@@ -35,7 +38,7 @@ Based on Mathias Bynens epic dotfiles - https://github.com/mathiasbynens/dotfile
 2. Install Bashstrap into your home dir:
 
 		cd; curl -#L https://github.com/barryclark/bashstrap/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,screenshot.png}
-		
+
 3. Run `source ~/.bash_profile` or restart iTerm or terminal.
 
 ### Installation: iTerm (5 mins)
